@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  doctry:
+    image: ${DOCKER_REGISTRY}doctry
+    build:
+      context: .
+      dockerfile: doctry\Dockerfile
